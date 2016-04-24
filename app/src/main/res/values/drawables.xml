@@ -1,0 +1,4 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_slideshow" type="drawable">@drawable/ic_menu_music</item>
+    <item name="ic_menu_favorite" type="drawable">@drawable/ic_menu_favorite</item>
+</resources>

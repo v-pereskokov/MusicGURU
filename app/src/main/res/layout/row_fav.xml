@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="@color/colorWhite"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/LinearLayout_height"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/artist_name"
+                android:id="@+id/tvName_fav"
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="@dimen/TextView_marginleft"
+                android:layout_marginTop="@dimen/TextView_margintop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/genres"
+                android:id="@+id/tvGenres_fav"
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="@dimen/TextView_marginleft"
+                android:layout_marginTop="@dimen/TextView_margintop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/content"
+                android:id="@+id/tvContent_fav"
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="@dimen/TextView_marginleft"
+                android:layout_marginTop="@dimen/TextView_margintop" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

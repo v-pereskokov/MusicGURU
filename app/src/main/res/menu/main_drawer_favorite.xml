@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Музыка">
+            <menu>
+                <item
+                    android:id="@+id/artists"
+                    android:icon="@drawable/ic_menu_microphone"
+                    android:title="@string/artists" />
+
+                <item
+                    android:id="@+id/favorite"
+                    android:icon="@drawable/ic_menu_favorite"
+                    android:title="@string/favorite" />
+
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Информация">
+        <menu>
+            <item
+                android:id="@+id/info"
+                android:icon="@drawable/ic_menu_share"
+                android:title="О программе" />
+        </menu>
+    </item>
+
+</menu>
